@@ -1,36 +1,28 @@
-h3
-{
+
+.testimonialh2{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight:900 ;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size:2rem;
+  color: #fff;
 }
-.color-red
-{
+.color-red{
     color:#ef8172;
     margin-bottom: 10px;
 }
-.color-red:hover
-{
+.color-red:hover{
   color: #ff4c68;
 }
-
-.textcenter
-{
-  text-align: center;
-}
-.navbar-padding
-{
+.navbar-padding{
   padding:2em 2em 2em 0;
 }
-.Mont
-{
+.Mont{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight:900 ;
 }
 
-#firstHeader
-{
+#firstHeader{
 font-family: 'Montserrat', sans-serif;
 font-size: 3rem;
 font-weight: 900;
@@ -38,31 +30,105 @@ line-height: 1.5;
 color: white;
 margin-bottom: 30px;
 }
-#Navlinks
-{
+#Navlinks{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
-
-#paragraphs1
-{
+#paragraphs1{
   color: #8f8f8f;
 }
-
-#title
-{
+#title{
   background-color: #ff4c68;
+  position:relative;
+  z-index:-1;
 }
-
-#TindogH
-{
+#TindogH{
   font-family: 'ubuntu',sans-serif;
   color: white;
   font-size: 3rem;
   font-weight: 400;
 }
-#tindogimg
-{
+#tindogimg{
   width: 50%;
   transform: rotate(20deg);
+}
+#features{
+  padding:0 %15;
+  background-color:#fff;
+  position:relative;
+  z-index:1;
+  bottom:120px;
+  text-align: center;
+}
+@media screen and (max-width:900px){
+  #tindogimg{
+    margin-top: 50px;
+    width: 30%;
+    transform: rotate(0);
+  }
+#title{
+    background-color: #ff4c68;
+  }
+#features{
+  background-color:#fff;
+  bottom:0;
+  z-index:0;
+  }
+}
+/* Features */
+
+/* Testimonial Section */
+#testimonials{
+  background-color: #ef8172;
+}
+.dogimg{
+  border-radius: 50%;
+  width: 15%;
+}
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size:2rem;
+  color: #fff;
+}
+/* press */
+#press{
+  text-align: center;
+  background-color:#ef8172;
+  padding-bottom:3%;
+}
+.pressimg{
+  width: 10%;
+}
+ /* Pricing Section  */
+#pricing{
+  padding: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size:1rem;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+#pricingh2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:2.5rem;
+}
+#pricingh3{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:1.5rem;
+}
+#cta{
+  padding: 7em;
+  background-color:#ff4c68;
+  text-align: center;
+}
+#footer{
+  padding: 5em;
+  text-align: center;
 }
