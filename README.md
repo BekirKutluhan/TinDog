@@ -20,7 +20,7 @@ Hello Everyone! I'm new to bootstrap. This assignment given me by Dr.Angela YU.
 The challenge aims you to design a dating app for our best friends.
 
 ### Screenshot
-
+![](images/tindog.png)
 
 ### Links
 
@@ -40,10 +40,22 @@ This challenge is super educational for bootstrap.
 To see how you can add code snippets, see below:
 
 ```html
-
- ```
+<!-- COL-CIRCLE -->
+<div class="col-lg-4 ">
+  <i class="fas fa-bullseye  color-red fa-4x"></i><br>
+  <h3 class="Mont">Elite Clientele</h3>
+  <p id="paragraphs1">We have all the dogs, the <br>greatest dogs.</p>
+</div>
  ```CSS
-
+ @media screen and (max-width:900px){
+   #tindogimg{
+     margin-top: 50px;
+     width: 30%;
+     transform: rotate(0);
+   }
+ #title{
+     background-color: #ff4c68;
+   }
 ```
 
 
